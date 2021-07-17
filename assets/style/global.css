@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper{
+  height: 100vh;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main {  
+  width: 60%;
+  height: 70%;
+
+    background: 
+    url('./../images/illustration-woman-online-desktop.svg') no-repeat, 
+    url('./../images/bg-pattern-desktop.svg') no-repeat, 
+    #fff ;
+
+  background-position: 
+    -17% 43%,
+    1230% 67%;
+
+  background-size: 
+    50%, 
+    105%;
+
+  padding: 3em 5em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  border-radius: 1.5em;
+}
+main::after {
+  content: ' ';
+  width: 10em;
+  height: 10em;
+  background: url('./../images/illustration-box-desktop.svg') no-repeat;
+  position: absolute;
+  background-size: 105%;
+  top: 42%;
+  left: 14%;
+
+}
+
+
+section {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  font-family: 'Kumbh Sans', sans-serif;
+}
+section .question {
+  background: url('./../images/icon-arrow-down.svg') no-repeat;
+  background-position: 100% 50%;
+  font-size: 13px;
+}
+section .answer {
+  display: none;
+  font-size: 10px;
+}
+
+section .question, section .answer {
+  width: 100%;
+
+  cursor: pointer;
+}
+
+section header{
+  width: 100%;
+
+  padding: 0 0 1em 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-size: 16px;
+}
+
+article {
+  width: 100%;
+  height: 100%;
+}
+
+article ul {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+article .qea {
+  width: 100%;
+  padding: 1.35em 0;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content:center;
+  flex-direction: column;
+
+  border-bottom: solid 1px hsl(240, 5%, 91%);
+}
