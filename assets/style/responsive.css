@@ -1,0 +1,21 @@
+@media (max-width: 1024px) {
+  main {
+    width: 60%;
+    height: 70%;
+
+    background: url("./../images/illustration-woman-online-desktop.svg")
+        no-repeat,
+      url("./../images/bg-pattern-desktop.svg") no-repeat, #fff;
+
+    background-position: -17% -10%, 1230% 67%;
+
+    background-size: 50%, 105%;
+
+    padding: 3em 5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    border-radius: 1.5em;
+  }
+}
