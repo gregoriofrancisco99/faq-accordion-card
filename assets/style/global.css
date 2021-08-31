@@ -27,7 +27,7 @@ main {
 
   background-size: 50%, 105%;
 
-  padding: 3em 5em;
+  padding: 2em 4em;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -62,13 +62,15 @@ section .question {
   font-size: 13px;
 }
 section .answer {
-  font-size: 10px;
+  padding: 1em 1em 0 1em;
+  font-size: 11.5px;
+  line-height: 1.7em;
+  display: none;
 }
 
 section .question,
 section .answer {
   width: 100%;
-
   cursor: pointer;
 }
 
@@ -87,6 +89,7 @@ section header {
 article {
   width: 100%;
   height: 100%;
+  overflow: scroll;
 }
 
 article ul {
@@ -109,4 +112,12 @@ article .qea {
   flex-direction: column;
 
   border-bottom: solid 1px hsl(240, 5%, 91%);
+}
+
+/* #############################
+    Interativity
+##############################*/
+
+#onFocus {
+  font-weight: 700;
 }
