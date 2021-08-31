@@ -62,7 +62,6 @@ section .question {
   font-size: 13px;
 }
 section .answer {
-  display: none;
   font-size: 10px;
 }
 
